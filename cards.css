@@ -1,0 +1,46 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75,800;100,400&family=Poppins:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@700&family=Open+Sans:wdth,wght@75,800;100,400&family=Poppins:wght@300;400;500&display=swap');
+
+
+.foodcards{
+    display: flex;
+    margin-top: 34vw;
+}
+
+.commoncards{
+    width: 29vw;
+}
+
+.c1{
+    margin-left: 4vw;
+    padding-right: 2vw;
+}
+
+.c2{
+    padding-right: 0vh;
+}
+
+
+.c3{
+    padding-left: 2vw;
+}
+
+#desc{
+    font-family: 'Poppins', sans-serif;
+    font-size: x-large;
+    font-weight: bolder;
+    margin-top: 3vh;
+}
+
+#link{
+    font-family: 'Poppins', sans-serif;
+    font-size: medium;
+    font-weight: bolder;
+    margin-top: 1vh;
+    text-decoration: underline;
+}
+
+#link:hover{
+    cursor:pointer;
+}

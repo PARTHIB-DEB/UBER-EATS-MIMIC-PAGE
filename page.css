@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75,800;100,400&family=Poppins:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@700&family=Open+Sans:wdth,wght@75,800;100,400&family=Poppins:wght@300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    background-image: url(bg2.png);
+    background-repeat: no-repeat;
+    background-size: 108% 57vw;
+    position: absolute;
+}
+
+header{
+    background-color:rgba(246, 237, 237, 0);
+    display: flex;
+    justify-content: flex-start;
+    align-content: space-between;
+}
+
+.mynav{
+    margin: 4vh 47vw 0vh 3vw;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 100;
+    padding-right: 9vh;
+}
+
+.btn{
+    margin-top: 4vh;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+#bt-log {
+    margin-right: 1vw;
+    margin-left: 4vw;
+    border: 0px solid rgba(0,0,0, 0);
+    border-radius: 5vh;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    padding-right: 6vh;
+    padding-left: 6vh;
+    background-color:white;
+}
+
+#bt-sign{
+    margin-left: 4px;
+    border: 0px solid rgba(0,0,0, 0);
+    border-radius: 5vh;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    padding-right: 6vh;
+    padding-left: 6vh;
+    background-color:black;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.color-black{
+    color: black;
+}
+
+.color-white{
+    color: white;
+}
+
+.tagline{
+    margin: 12vw 0vw 0vw 4vw;
+    font-size: -webkit-xxx-large;
+    font-weight: 900;
+    font-family: 'Poppins', sans-serif;
+}
+
+.menubar{
+    height: 6vh;
+    width: 5vh;
+    margin: 3vh 0vh 0vh 8vh;
+    padding-top: 2vh;
+
+}
+
+.menubar:hover{
+    cursor: pointer;
+}
+
+.searchbox{
+    margin: 2vw 0vw 0vw 4vw;
+}
+
+#inside-box{
+    padding-right: 5vw;
+    padding-left: 6vh;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    font-family: 'Open Sans', sans-serif;
+}
+
+input{
+    width:36vw;
+}
+
+#Food{
+    margin-left: 1vw;
+    background-color: black;
+    border: 0px solid rgba(0,0,0, 0);
+    border-radius: 2vh;
+    padding-top: 2vh;
+    padding-bottom: 3vh;
+    padding-right: 4vh;
+    padding-left: 4vh;
+}
+
+.citymaps{
+    font-family: 'Open Sans', sans-serif;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-top: 9vw;
+    margin-left: 4vw;
+}
+
+.map{
+    margin-top: 3vh;
+    margin-left: 4vw;
+}
+
+.citynames{
+    display: grid;
+    grid-gap: 1vh 9vw;
+    grid-template-columns: auto auto auto auto auto auto;
+    margin-top: 3vw;
+    margin-left: 4vw;
+    margin-bottom: 2vw;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+#line{
+    margin-left: 3vw;
+}
+
+.download{
+    height: 3vw;
+    width: 10vw;
+    margin: 4vw 0vw 3vw 4vw;
+}
+
+.download:hover{
+    cursor: pointer;
+}
+
+main{
+    height: 140vw;
+}
+
+.endline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3vh;
+    font-family: 'Open Sans', sans-serif;
+    font-size: small;
+    font-weight: 200;
+    margin-left: 10vh;
+}
